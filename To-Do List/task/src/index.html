@@ -1,10 +1,41 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>To-Do List</title>
 </head>
 <body>
-
+  <header>
+    <h1>To-Do List</h1>
+    <label>
+      <input id="input-task">
+    </label>
+    <button id="add-task-button">ADD TASK</button>
+  </header>
+  <main>
+    <ul id="task-list">
+      <li>
+        <label>
+          <input type="checkbox">
+        </label>
+        <span class="task">Email David</span>
+        <button class="delete-btn"></button>
+      </li>
+      <li>
+        <label>
+          <input type="checkbox">
+        </label>
+        <span class="task">Create ideal user persona guide</span>
+        <button class="delete-btn"></button>
+      </li>
+      <li>
+        <label>
+          <input type="checkbox">
+        </label>
+        <span class="task">Set up A/B test</span>
+        <button class="delete-btn"></button>
+      </li>
+    </ul>
+  </main>
 </body>
 </html>
